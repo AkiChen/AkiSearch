@@ -1,2 +1,2 @@
-# AkiSearch
-综合Baidu和Google的搜索应用
+# Akiの搜索
+综合Baidu和Google的Chrome浏览器应用
