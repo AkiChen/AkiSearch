@@ -1,0 +1,150 @@
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Akiの搜索</title>
+
+
+		 
+		  <!-- Loading Bootstrap -->
+		  <link href="css/vendor/bootstrap.min.css" rel="stylesheet">
+
+    	<!-- Loading Flat UI -->
+    	<link href="css/flat-ui.min.css" rel="stylesheet">
+    	<link href="assets/css/docs.css" rel="stylesheet">
+       <link href="css/mystyle.css" rel="stylesheet">
+    	<link href="css/akiSearchv2.css" rel="stylesheet">
+
+
+    	<link rel="shortcut icon" href="img/aki_origin.png">
+
+	</head>
+	 <body style="font-family:Microsoft YaHei;">
+		
+    <script src="js/jquery-1.8.2.min.js"></script>
+		<script type="text/javascript" src="js/myscript.js"></script>
+		
+		
+		<script src="js/popup.js"></script>
+		<nav class="mynav navbar navbar-inverse navbar-embossed" role="navigation">
+      		<div class="navbar-header">
+          		<a class="mybrand navbar-brand" href="#">Aki</a>
+      		</div>
+      		<div class="main_search_box_outer collapse navbar-collapse" id="navbar-collapse-01" style="float:left;">
+          		<div class=" navbar-form navbar-right" role="search">
+             		<div class=" form-group">
+                  		<div class="  input-group">
+                    		<input class=" main_search_box form-control" id="main_input" type="search" placeholder="Search" >
+                    		<span class="input-group-btn">
+                      		<button type="submit" class="btn" id="invisible_search"><span class="fui-search"></span></button>
+                    		</span>
+                  		</div>
+              		</div>
+          		</div>
+      		</div>
+      		<a  class="btn-ghoust btn" id="goGoogle" >To Google</a>
+      		<a  class="btn-ghoust btn" id="goBaidu" >To Baidu</a>
+      		<div class="btn-group" style="float:right;margin-top:6px">
+          		<button class="main_setup_btn btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
+              	 Settings<span class="caret"></span>
+          		</button>
+          		<ul class="main_setup_dropdown  dropdown-menu  dropdown-menu-inverse" role="menu">
+            		<li><a id="btn_update_gip" style="cursor:pointer">更换Google IP</a></li>
+                <li><a data-toggle="modal" data-target=".bs-example-modal-lg" style="cursor:pointer">手动输入Google IP</a></li>
+            		<li class="divider"></li>
+            		<li><a id="show_current_gip" style="cursor:pointer">当前&nbsp;GIP&nbsp;:</a></li>
+          		</ul>
+      		</div>
+  		</nav>
+  		<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  			<div class="modal-dialog modal-lg">
+    			<div class="modal-content">
+      				<div class="modal-header">
+        				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        				<h4 class="modal-title" id="myModalLabel">手工输入新的Google IP</h4>
+      				</div>
+      				<div class="modal-body" id="google_ip_table">
+              <code>将可用的谷歌IP地址填入，每个都以'|'结尾，例如"208.117.228.57|"</code>
+        			<textarea class="form-control" rows="10" style="margin-top:5px;" id="new_google_ip"></textarea> 
+      				</div>
+      				<div class="modal-footer">
+        				<button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+        				<button type="button" class="btn btn-primary" id="save_new_googleip">保存</button>
+      				</div>
+    			</div>
+  			</div>
+		</div>
+		<div class="subframe" style="float:left;" id="leftframe" >
+			<div id="googleaction" class="actionbar" >
+				<div style="width:750px;">
+					<div class="subsearchbar input-group" >
+          				<span class="input-group-addon" style="padding:0px 5px;font-family:Baskerville Old Face;font-size:25px;">Google</span>
+          				<input type="text" class="sub_search_input form-control" placeholder="Search" id="g_input"
+          				>
+          				<span class="input-group-btn">
+              				<button type="submit" class="btn" id="invisible_g_search"><span class="fui-search"></span></button>
+          				</span>
+      				</div>
+					<button type="button" id="forimage" class="btn btn-default" style="margin-left:10px;">Image
+					</button>
+					<div class="btn-group">	
+					<button type="button" id="currentlocal" class="btn btn-default dropdown-toggle" data-toggle="dropdown" style="float:right;">EN<span class="caret"></span>
+					</button>
+					<ul class="dropdown-menu" role="menu"  style="min-width:65px;">
+					    <li><a class="chooselocal" id="changel1" >EN</a></li>
+					    <li><a class="chooselocal" id="changel2" >CN</a></li>
+					</ul>
+					</div>
+				</div>
+			</div>
+			<div id="waitting" class="progress progress-striped active" style="height:10px;display:none;">
+  				<div class="progress-bar"   role="progressbar" aria-valuenow="90" aria-valuemin="45" aria-valuemax="100" style="width: 100%;-webkit-border-radius:0px,0px,0px,0px;">
+				</div>
+			</div>
+			<div style="margin-left:45px;margin-top:10px;" id="g_content" ></div>
+			<a class="btn-morepage btn-ghoust btn" id="g_one_more_page" >More&nbsp;<span class="fui-plus"></span></a>
+		</div>
+		<div class="subframe" id="baiduframe" style="float:right;">
+			<div id="baiduaction" class="actionbar">
+				<div style="width:750px">
+					<div class="subsearchbar input-group" style="width:370px;">
+          					<span class="input-group-addon" style="padding:0px 5px;font-family:Californian FB;font-size:25px;"><img src="img/baidu.png" style="height:34px;"></img></span>
+          					<input type="text" class="sub_search_input form-control" id="b_input" placeholder="Search">
+    					      <span class="input-group-btn">
+              					<button type="submit" class="btn" id="invisible_b_search"><span class="fui-search"></span></button>
+          					</span>
+      				</div>
+
+					<button type="button" id="getbaike" class="btn btn-default" style="font-family:Microsoft YaHei;margin-left:10px;">百科
+					</button>
+					<div class="btn-group">
+					<button type="button" id="currentlocal" class="btn btn-default dropdown-toggle" data-toggle="dropdown" style="float:right;">更多<span class="caret"></span>
+					</button>
+					<ul class="dropdown-menu" role="menu"  style="min-width:65px;">
+					    <li><a class="chooselocal" id="gettieba">贴吧</a></li>
+					    <li><a class="chooselocal" id="getditu">地图</a></li>
+					    <li><a class="chooselocal" id="getzhidao">知道</a></li>
+					    <li><a class="chooselocal" id="gettupian">图片</a></li>
+					</ul>
+					</div>
+				</div>
+			</div>
+			<div id="b_waitting" class="progress progress-striped active" style="height:10px;display:none;">
+  				<div class="progress-bar"   role="progressbar" aria-valuenow="90" aria-valuemin="45" aria-valuemax="100" style="width: 100%;-webkit-border-radius:0px,0px,0px,0px;">
+				</div>
+			</div>
+			<div style="margin-left:45px;margin-top:16px;" id="b_content" class="b_content"></div>
+	
+          	<a class="btn-morepage btn-ghoust btn" id="b_one_more_page" >More&nbsp;<span class="fui-plus"></span></a>
+          	
+		</div>
+  	
+
+  	
+    <script src="js/jquery-1.8.2.min.js"></script>
+    <script src="js/flat-ui.min.js"></script>
+
+    <script src="assets/js/prettify.js"></script>
+    <script src="assets/js/application.js"></script>
+  
+	</body>
+</html>

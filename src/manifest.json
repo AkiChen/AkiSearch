@@ -1,0 +1,22 @@
+{
+	"manifest_version": 2,
+	"name": "Akiの搜索",
+	"version": "1.0",
+	"description": "综合Baidu和Google的搜索应用",
+    "icons": {
+		"16": "img/aki_origin.png", 
+		"48": "img/aki_origin.png",
+		"128": "img/aki_origin.png"
+	},
+	"browser_action": {
+        "default_icon": {
+            "19": "img/aki_origin.png",
+            "38": "img/aki_origin.png"
+        },
+        "default_title": "Akiの搜索",
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+        "http://*/"
+    ]
+}

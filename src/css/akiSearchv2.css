@@ -1,0 +1,151 @@
+.mynav{
+	border-radius:0px;
+	position: absolute;
+	margin-bottom: 0;
+	width: 100%;
+	z-index: 100;
+}
+
+
+.mybrand{
+	font-family: "Monaco";
+	font-size: 38px;
+	margin-top:-6px;
+	margin-left: 8%;
+}
+
+.main_search_box{
+	width: 500px!important;
+}
+
+.main_search_box_outer{
+	margin-left: 20%;
+	width: 30%!important;
+}
+
+.main_setup_btn{
+	margin-right: 200px;
+	height: 36px;
+	margin-top: 2px;
+	padding-top: 7px!important;
+}
+
+.main_setup_dropdown{
+	margin-top: 10px;
+	width:80px!important;
+}
+
+.btn-ghoust{
+	border-color:#16a085;
+	background-color: transparent;
+	line-height: 1.33;
+	border-radius: 6px;
+	border-style: solid;
+	border-width: 1px;
+	margin-top: 8px;
+	margin-left: 7px;
+	font-weight: 500;
+	height: 36px;
+	padding-top: 7px!important;
+}
+
+.btn-ghoust:hover{
+	background-color:#16a085;
+	border-color: transparent;
+	color: #34495e;
+}
+
+.actionbar{
+	height: 50px;
+	margin-top:67px;
+}
+
+.subsearchbar{
+	width:350px;
+	float:left;
+	margin-left: 30px;
+}
+
+.sub_search_input{
+	color: #bdc3c7;
+}
+
+.sub_search_input:focus{
+	color: #16a085;
+}
+
+.l{
+	font-family: arial,sans-serif;
+	font-size: 18px !important;
+	text-decoration: none;
+	color: #1a0dab;
+}
+
+#b_content h3{
+	font-family: arial,sans-serif;
+	font-size: 18px !important;
+	text-decoration: none;
+	margin: 0 0;
+	font-weight: normal;
+	color: #1a0dab!important;
+}
+
+.favurl,.t{
+	color: #1a0dab;
+}
+
+.l:hover{
+	text-decoration: underline;
+	color: #1a0dab;
+}
+
+table {
+	font-size: small;
+}
+
+#b_content{
+	font-size: small;
+	width: 600px;
+}
+
+#g_content li,.result{
+	margin-bottom: 25px;
+	list-style-type:none;
+	border:0px;
+}
+
+#b_content a:hover{
+	text-decoration: underline;
+	color: #1a0dab;
+}
+
+h2.r{
+	font-size: 16px;
+	font-style: normal!important;
+	font-weight: normal;
+	margin-top:16px;
+	margin-bottom:5px;
+}
+
+span.a{
+	color: #00802a;
+	font-style: italic;
+}
+
+#baidupager.pagination{
+	margin-left: 245px;
+}
+
+.btn-morepage{
+	margin-left: 45px;
+	width: 600px;
+	margin-bottom: 50px;
+}
+
+.btn-morepage:hover{
+	color: white;
+}
+
+p{
+	font-size: 13px;
+}
