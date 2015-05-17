@@ -10,4 +10,4 @@
 1. 右半部分显示的是Baidu的搜索结果，你也能够依据相同的关键词使用Baidu搜索某项特定内容（百科，地图，图片等等）。
 
 2. 左半部分显示的是Google的搜索结果，你可以跳转到图片搜索，也能够选择搜索的语言（中文或英文）。
-<img src="https://raw.githubusercontent.com/AkiChen/AkiSearch/master/pic3.png" alt="alt text" style="width:500px;">
+<img src="https://raw.githubusercontent.com/AkiChen/AkiSearch/master/pic3.png" style="width:500px;float-left:auto;">
