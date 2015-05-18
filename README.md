@@ -10,10 +10,11 @@
 1. 右半部分显示的是Baidu的搜索结果，你可以依据相同的关键词使用Baidu来搜索某项特定内容（百科，地图，图片等等）。
 
 2. 左半部分显示的是Google的搜索结果，你可以跳转到图片搜索，也能够选择搜索的语言（中文或英文）。
-<img src="https://raw.githubusercontent.com/AkiChen/AkiSearch/master/pic3.png" style="width:500px;float-left:auto;">
+<img src="https://raw.githubusercontent.com/AkiChen/AkiSearch/master/pic3.png" style="width:500px;">
 
 当然，如果你还是想看看百度和Google的原始搜索结果，你可以点击"To Google"和"To Baidu"来跳转到相关页面。
 ![Screen Shot3!](https://raw.githubusercontent.com/AkiChen/AkiSearch/master/pic4.png)
 
 若你觉得这个插件的功能还不错，还可以将它设置为你的谷歌浏览器的默认搜索引擎，这样只需要在地址栏里输入关键词就能跳转到对应的搜索界面。
 ![Screen Shot3!](https://raw.githubusercontent.com/AkiChen/AkiSearch/master/pic5.png)
+## 安装和设置
