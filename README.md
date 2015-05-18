@@ -47,6 +47,11 @@ chrome的地址栏是很方便的搜索入口，它默认使用Google搜索，�
 1. 打开谷歌浏览器右上角的菜单，菜单->设置，点击管理搜索引擎。
 <img src="https://raw.githubusercontent.com/AkiChen/AkiSearch/master/pics/pic9.png" style="width:500px;">
 2. 将滚动条拖动到底端，可以简单的用三个字段来自定义搜索引擎。
+
 ① 搜索引擎名称（红色），填个你喜欢的名字吧。
+
 ② 关键字（蓝色），我也不知道这个有什么用，随便填吧。
-③ 网址（黄色）:随意搜索一个关键词，例如"tongji"，得到的页面地址是chrome-extension://`jiggceakakachkbfbpgimfakjpedlnkc`/main.html?q=tongji
+
+③ 网址（黄色）:随意搜索一个关键词，例如"tongji"，得到的页面地址是
+
+chrome-extension://`jiggceakakachkbfbpgimfakjpedlnkc`/main.html?q=tongji
