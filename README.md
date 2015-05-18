@@ -19,3 +19,12 @@
 若你觉得这个插件的功能还不错，还可以将它设置为你的谷歌浏览器的默认搜索引擎，这样只需要在地址栏里输入关键词就能跳转到对应的搜索界面。
 ![Screen Shot3!](https://raw.githubusercontent.com/AkiChen/AkiSearch/master/pic5.png)
 ## 安装和设置
+
+###1.使用安装包来安装
+这个安装方法很简单，适合windows以外的chrome浏览器用户，
+
+步骤
+
+1. 点击 <a href="http://github.com/AkiChen/AkiSearch/archive/master.zip">akiSearch</a> 来下载插件的压缩包，并解压。
+
+2. 菜单->更多工具->扩展程序 
