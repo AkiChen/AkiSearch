@@ -42,5 +42,8 @@ Google为了加强对恶意chrome app的控制，在windows平台最新版本的
 ###3.将"Akiの搜索"设为Chrome的默认搜索
 chrome的地址栏是很方便的搜索入口，它默认使用Google搜索，也可以进行个性化的设置。
 
-步骤如下：
-1. 
+步骤如下:
+
+1. 打开谷歌浏览器右上角的菜单，菜单->设置，点击管理搜索引擎。
+
+<img src="https://raw.githubusercontent.com/AkiChen/AkiSearch/master/pics/pic9.png" style="width:500px;">
