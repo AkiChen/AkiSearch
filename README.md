@@ -21,10 +21,12 @@
 ## 安装和设置
 
 ###1.使用安装包来安装
-这个安装方法很简单，适合windows以外的chrome浏览器用户，
+这个安装方法很简单，适合windows以外的chrome浏览器用户。
 
-步骤
+步骤如下
 
 1. 点击 <a href="http://github.com/AkiChen/AkiSearch/archive/master.zip">akiSearch</a> 来下载插件的压缩包，并解压。
 
-2. 菜单->更多工具->扩展程序 
+2. 菜单->更多工具->扩展程序 并且勾选"开发者模式"。
+
+![Screen Shot3!](https://raw.githubusercontent.com/AkiChen/AkiSearch/master/pic6.png)
