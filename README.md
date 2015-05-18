@@ -30,3 +30,7 @@
 2. 打开谷歌浏览器右上角的菜单，菜单->更多工具->扩展程序，并且勾选"开发者模式"。
 
 ![Screen Shot3!](https://raw.githubusercontent.com/AkiChen/AkiSearch/master/pics/pic6.png)
+
+3. 将压缩包中的"akiSearch.crx"用鼠标拖动到扩展程序的页面中，一路确定和接受，完成安装。
+
+![Screen Shot3!](https://raw.githubusercontent.com/AkiChen/AkiSearch/master/pics/pic7.png)
