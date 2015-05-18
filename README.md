@@ -18,27 +18,26 @@
 ![Screen Shot3!](https://raw.githubusercontent.com/AkiChen/AkiSearch/master/pics/pic5.png)
 ## 安装和设置
 
-###1.使用安装包来安装
-这个安装方法很简单，适合windows以外的chrome浏览器用户。
-
-步骤如下
-
-1. 点击 <a href="http://github.com/AkiChen/AkiSearch/archive/master.zip">akiSearch</a> 来下载插件的压缩包，并解压。
-2. 打开谷歌浏览器右上角的菜单，菜单->更多工具->扩展程序，并且勾选"开发者模式"。
-![Screen Shot3!](https://raw.githubusercontent.com/AkiChen/AkiSearch/master/pics/pic6.png)
-3. 将压缩包中的"akiSearch.crx"用鼠标拖动到扩展程序的页面中，一路确定和接受，完成安装。
-![Screen Shot3!](https://raw.githubusercontent.com/AkiChen/AkiSearch/master/pics/pic7.png)
-
-###2.使用本地文件夹来安装
+###1.使用本地文件夹来安装
 Google为了加强对恶意chrome app的控制，在windows平台最新版本的chrome浏览器中已经停止了对第三方app的支持，据说Mac平台的chrome在2015年夏天也会有相同的举措。但是目前，chrome浏览器仍然能从本地文件夹加载插件。
 
-步骤如下
+步骤如下:
 
 1. 点击 <a href="http://github.com/AkiChen/AkiSearch/archive/master.zip">akiSearch</a> 来下载插件的压缩包，并解压。
 2. 打开谷歌浏览器右上角的菜单，菜单->更多工具->扩展程序，勾选"开发者模式"。
 3. 点击"加载正在开发的扩展程序"，选择压缩包中的"akiSearch"文件夹，一路确定和接受，完成安装。被选定的文件夹需要一直存储在你的电脑中。
 ![Screen Shot3!](https://raw.githubusercontent.com/AkiChen/AkiSearch/master/pics/pic8.png)
 
+###2.使用安装包来安装
+这个安装方法很简单，适合windows以外的chrome浏览器用户。
+
+步骤如下:
+
+1. 点击 <a href="http://github.com/AkiChen/AkiSearch/archive/master.zip">akiSearch</a> 来下载插件的压缩包，并解压。
+2. 打开谷歌浏览器右上角的菜单，菜单->更多工具->扩展程序，并且勾选"开发者模式"。
+![Screen Shot3!](https://raw.githubusercontent.com/AkiChen/AkiSearch/master/pics/pic6.png)
+3. 将压缩包中的"akiSearch.crx"用鼠标拖动到扩展程序的页面中，一路确定和接受，完成安装。
+![Screen Shot3!](https://raw.githubusercontent.com/AkiChen/AkiSearch/master/pics/pic7.png)
 ###3.将"Akiの搜索"设为Chrome的默认搜索
 chrome的地址栏是很方便的搜索入口，它默认使用Google搜索，也可以进行个性化的设置。
 
