@@ -39,6 +39,8 @@ Google为了加强对恶意chrome app的控制，在windows平台最新版本的
 3. 点击"加载正在开发的扩展程序"，选择压缩包中的"akiSearch"文件夹，一路确定和接受，完成安装。被选定的文件夹需要一直存储在你的电脑中。
 ![Screen Shot3!](https://raw.githubusercontent.com/AkiChen/AkiSearch/master/pics/pic8.png)
 
-###3.将"Akiの搜索"设为chrome的默认搜索
+###3.将"Akiの搜索"设为Chrome的默认搜索
 chrome的地址栏是很方便的搜索入口，它默认使用Google搜索，也可以进行个性化的设置。
+
 步骤如下：
+1. 
