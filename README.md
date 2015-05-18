@@ -38,6 +38,7 @@ Google为了加强对恶意chrome app的控制，在windows平台最新版本的
 ![Screen Shot3!](https://raw.githubusercontent.com/AkiChen/AkiSearch/master/pics/pic6.png)
 3. 将压缩包中的"akiSearch.crx"用鼠标拖动到扩展程序的页面中，一路确定和接受，完成安装。
 ![Screen Shot3!](https://raw.githubusercontent.com/AkiChen/AkiSearch/master/pics/pic7.png)
+
 ###3.将"Akiの搜索"设为Chrome的默认搜索
 chrome的地址栏是很方便的搜索入口，它默认使用Google搜索，也可以进行个性化的设置。
 
@@ -52,7 +53,7 @@ chrome的地址栏是很方便的搜索入口，它默认使用Google搜索，�
 
 	② 关键字（蓝色），我也不知道这个有什么用，随便填吧。
 
-	③ 网址（黄色）:随意搜索一个关键词，将得到的页面地址填入，并且把关键词用"%s"代替。例如我搜素"tongji"，得到的页面地址是
+	③ 网址（黄色）:随意搜索一个关键词，将得到的页面地址填入，并且把关键词用"%s"代替。例如我搜索"tongji"，得到的页面地址是
 
 	chrome-extension://`jiggceakakachkbfbpgimfakjpedlnkc`/main.html?q=tongji
 
@@ -62,3 +63,6 @@ chrome的地址栏是很方便的搜索入口，它默认使用Google搜索，�
 
 3. 编辑完成之后，在列表中找到新建的搜索，并且点击设置为默认搜索引擎。
 ![Screen Shot3!](https://raw.githubusercontent.com/AkiChen/AkiSearch/master/pics/pic10.png)
+
+###4.通过Google IP访问谷歌
+虽然被墙，但是还有一些Google的服务器地址可以被访问。这个插件收集了很多目前可以访问的IP地址，点击"Settings"按钮可以查看当前正在使用的谷歌IP地址。如果有一天你发现Google搜索的部分刷不出来，可能是这个IP已经被墙，点击"Settings"菜单中的"更换Google IP"。
