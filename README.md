@@ -10,6 +10,7 @@
 1. 右半部分显示的是Baidu的搜索结果，你可以依据相同的关键词使用Baidu来搜索某项特定内容（百科，地图，图片等等）。
 
 2. 左半部分显示的是Google的搜索结果，你可以跳转到图片搜索，也能够选择搜索的语言（中文或英文）。
+
 <img src="https://raw.githubusercontent.com/AkiChen/AkiSearch/master/pic3.png" style="width:500px;">
 
 当然，如果你还是想看看百度和Google的原始搜索结果，你可以点击"To Google"和"To Baidu"来跳转到相关页面。
