@@ -65,4 +65,4 @@ chrome的地址栏是很方便的搜索入口，它默认使用Google搜索，�
 ![Screen Shot3!](https://raw.githubusercontent.com/AkiChen/AkiSearch/master/pics/pic10.png)
 
 ###4.通过Google IP访问谷歌
-虽然被墙，但是还有一些Google的服务器地址可以被访问。这个插件收集了很多目前可以访问的IP地址，点击"Settings"按钮可以查看当前正在使用的谷歌IP地址。如果有一天你发现Google搜索的部分刷不出来，可能是这个IP已经被墙，点击"Settings"菜单中的"更换Google IP"。
+虽然被墙，但是还有一些Google的服务器地址可以被访问。"Akiの搜索"收集了很多暂时可以访问的IP地址，点击"Settings"按钮可以查看当前正在使用的谷歌IP地址。如果有一天你发现Google搜索的部分刷不出来，可能是这个IP已经被墙，点击"`Settings`"菜单中的"`更换Google IP`"。
