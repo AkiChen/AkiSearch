@@ -8,7 +8,6 @@
 在提交搜索关键词后，应用程序会新建一个标签页来展示搜索结果,并且可以分解为两部分。
 
 1. 右半部分显示的是Baidu的搜索结果，你可以依据相同的关键词使用Baidu来搜索某项特定内容（百科，地图，图片等等）。
-
 2. 左半部分显示的是Google的搜索结果，你可以跳转到图片搜索，也能够选择搜索的语言（中文或英文）。
 
 <img src="https://raw.githubusercontent.com/AkiChen/AkiSearch/master/pics/pic3.png" style="width:500px;">
@@ -36,3 +35,6 @@ Google为了加强对恶意chrome app的控制，在windows平台最新版本的
 步骤如下
 
 1. 点击 <a href="http://github.com/AkiChen/AkiSearch/archive/master.zip">akiSearch</a> 来下载插件的压缩包，并解压。
+2. 打开谷歌浏览器右上角的菜单，菜单->更多工具->扩展程序，勾选"开发者模式"。
+3. 点击"加载正在开发的扩展程序"，选择压缩包中的"akiSearch"文件夹，一路确定和接受，完成安装。被选定的文件夹需要一直存储在你的电脑中。
+![Screen Shot3!](https://raw.githubusercontent.com/AkiChen/AkiSearch/master/pics/pic8.png)
