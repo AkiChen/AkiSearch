@@ -15,7 +15,6 @@
 
 当然，如果你还是想看看百度和Google的原始搜索结果，你可以点击"To Google"和"To Baidu"来跳转到相关页面。
 ![Screen Shot3!](https://raw.githubusercontent.com/AkiChen/AkiSearch/master/pics/pic4.png)
-
 若你觉得这个插件的功能还不错，还可以将它设置为你的谷歌浏览器的默认搜索引擎，这样只需要在地址栏里输入关键词就能跳转到对应的搜索界面。
 ![Screen Shot3!](https://raw.githubusercontent.com/AkiChen/AkiSearch/master/pics/pic5.png)
 ## 安装和设置
@@ -31,3 +30,10 @@
 ![Screen Shot3!](https://raw.githubusercontent.com/AkiChen/AkiSearch/master/pics/pic6.png)
 3. 将压缩包中的"akiSearch.crx"用鼠标拖动到扩展程序的页面中，一路确定和接受，完成安装。
 ![Screen Shot3!](https://raw.githubusercontent.com/AkiChen/AkiSearch/master/pics/pic7.png)
+
+###2.使用本地文件夹来安装
+Google为了加强对恶意chrome app的控制，在windows平台最新版本的chrome浏览器中已经停止了对第三方app的支持，据说Mac平台的chrome在2015年夏天也会有相同的举措。但是目前，chrome浏览器仍然能从本地文件夹加载插件。
+
+步骤如下
+
+1. 点击 <a href="http://github.com/AkiChen/AkiSearch/archive/master.zip">akiSearch</a> 来下载插件的压缩包，并解压。
