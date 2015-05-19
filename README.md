@@ -68,6 +68,6 @@ chrome的地址栏是很方便的搜索入口，它默认使用Google搜索，�
 虽然被墙，但是还有一些Google的服务器地址可以被访问。"Akiの搜索"收集了很多暂时可以访问的谷歌IP地址，点击"Settings"按钮可以查看当前正在使用的谷歌IP地址。如果有一天你发现Google搜索的部分刷不出来，可能是这个IP已经被墙，点击"`Settings`"菜单中的"`更换Google IP`"。
 
 ## 程序员可能感兴趣的事情
-1. 界面使用的是基于Bootstrap的<a href="http://designmodo.github.io/Flat-UI/#">Flat UI</a>。
-2. 找到合适的Google IP很重要，我在这个插件中的谷歌IP列表是由<a href="https://github.com/PeerXu/google-ip-explorer">google-ip-explorer</a>获得的，它是一个Python的小程序，但是很有效。
+1. 界面使用的是基于Bootstrap的<a href="http://designmodo.github.io/Flat-UI/#">Flat UI</a>，虽然是男人，但是我很喜欢它魔性的主题绿色。
+2. 找到合适的Google IP很重要，这个插件中的谷歌IP列表是由<a href="https://github.com/PeerXu/google-ip-explorer">google-ip-explorer</a>获得的，它是一个Python的小程序，但是很有效。
 3. 虽然官方一直不推崇使用开发网页的思维来制作Chrome APP，但是如果你很熟悉网站前端开发，创造一个有趣的Chrome APP绝不是什么难事，特别是配合<a href="http://www.ituring.com.cn/book/1421">《Chrome扩展及应用开发》</a>，其中包含了不少程序实例，很容易上手。
