@@ -1,65 +1,139 @@
-<!doctype html>
-<!-- The Time Machine GitHub pages theme was designed and developed by Jon Rohan, on Feb 7, 2012. -->
-<!-- Follow him for fun. http://twitter.com/jonrohan. Tail his code on https://github.com/jonrohan -->
-<html>
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Akisearch by AkiChen</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">Akisearch</h1>
+      <h2 class="project-tagline">综合Baidu和Google的搜索应用</h2>
+      <a href="https://github.com/AkiChen/AkiSearch" class="btn">View on GitHub</a>
+      <a href="https://github.com/AkiChen/AkiSearch/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/AkiChen/AkiSearch/tarball/master" class="btn">Download .tar.gz</a>
+    </section>
 
-  <link rel="stylesheet" href="stylesheets/stylesheet.css" media="screen">
-  <link rel="stylesheet" href="stylesheets/github-dark.css">
-  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-  <script type="text/javascript" src="javascripts/script.js"></script>
+    <section class="main-content">
+      <h1>
+<a id="akiの搜索" class="anchor" href="#aki%E3%81%AE%E6%90%9C%E7%B4%A2" aria-hidden="true"><span class="octicon octicon-link"></span></a>Akiの搜索</h1>
 
-  <title>Akisearch</title>
-  <meta name="description" content="综合Baidu和Google的搜索应用">
+<h2>
+<a id="简介" class="anchor" href="#%E7%AE%80%E4%BB%8B" aria-hidden="true"><span class="octicon octicon-link"></span></a>简介</h2>
 
-  <meta name="viewport" content="width=device-width,initial-scale=1">
+<p>"Akiの搜索"是一个能够综合百度搜索和谷歌搜索结果的chrome辅助应用。一般情况下，不需要任何的VPN代理，它就能够正常地在墙内访问Google和Baidu，并且在同一个页面中展示两者的搜索结果。
+<img src="https://raw.githubusercontent.com/AkiChen/AkiSearch/master/pics/pic1.png" alt="Screen Shot!"></p>
 
-</head>
+<h2>
+<a id="基础功能" class="anchor" href="#%E5%9F%BA%E7%A1%80%E5%8A%9F%E8%83%BD" aria-hidden="true"><span class="octicon octicon-link"></span></a>基础功能</h2>
 
-<body>
+<p>在你的Chrome浏览器上成功安装这个应用后，每当你有感兴趣的内容时，都可以第一时间通过点击地址栏附近的小图标来打开用于搜索的弹出窗口。
+<img src="https://raw.githubusercontent.com/AkiChen/AkiSearch/master/pics/pic2.png" alt="Screen Shot2!">
+在提交搜索关键词后，应用程序会新建一个标签页来展示搜索结果,并且可以分解为两部分。</p>
 
-  <div class="wrapper">
-    <header>
-      <h1 class="title">Akisearch</h1>
-    </header>
-    <div id="container">
-      <p class="tagline">综合Baidu和Google的搜索应用</p>
-      <div id="main" role="main">
-        <div class="download-bar">
-        <div class="inner">
-          <a href="https://github.com/AkiChen/AkiSearch/tarball/master" class="download-button tar"><span>Download</span></a>
-          <a href="https://github.com/AkiChen/AkiSearch/zipball/master" class="download-button zip"><span>Download</span></a>
-          <a href="https://github.com/AkiChen/AkiSearch" class="code">View Akisearch on GitHub</a>
-        </div>
-        <span class="blc"></span><span class="trc"></span>
-        </div>
-        <article class="markdown-body">
-          <h1>
-<a id="akisearch" class="anchor" href="#akisearch" aria-hidden="true"><span class="octicon octicon-link"></span></a>AkiSearch</h1>
+<ol>
+<li>右半部分显示的是Baidu的搜索结果，你可以依据相同的关键词使用Baidu来搜索某项特定内容（百科，地图，图片等等）。</li>
+<li>左半部分显示的是Google的搜索结果，你可以跳转到图片搜索，也能够选择搜索的语言（中文或英文）。</li>
+</ol>
 
-<p>综合Baidu和Google的搜索应用</p>
-        </article>
-      </div>
-    </div>
-    <footer>
-      <div class="owner">
-      <p><a href="https://github.com/AkiChen" class="avatar"><img src="https://avatars1.githubusercontent.com/u/8131987?v=3&amp;s=60" width="48" height="48"></a> <a href="https://github.com/AkiChen">AkiChen</a> maintains <a href="https://github.com/AkiChen/AkiSearch">Akisearch</a></p>
+<p><img src="https://raw.githubusercontent.com/AkiChen/AkiSearch/master/pics/pic3.png"></p>
 
+<p>当然，如果你还是想看看百度和Google的原始搜索结果，你可以点击"To Google"和"To Baidu"来跳转到相关页面。
+<img src="https://raw.githubusercontent.com/AkiChen/AkiSearch/master/pics/pic4.png" alt="Screen Shot3!">
+若你觉得这个插件的功能还不错，还可以将它设置为你的谷歌浏览器的默认搜索引擎，这样只需要在地址栏里输入关键词就能跳转到对应的搜索界面。
+<img src="https://raw.githubusercontent.com/AkiChen/AkiSearch/master/pics/pic5.png" alt="Screen Shot3!"></p>
 
-      </div>
-      <div class="creds">
-        <small>This page generated using <a href="https://pages.github.com/">GitHub Pages</a><br>theme by <a href="https://twitter.com/jonrohan/">Jon Rohan</a></small>
-      </div>
-    </footer>
-  </div>
-  <div class="current-section">
-    <a href="#top">Scroll to top</a>
-    <a href="https://github.com/AkiChen/AkiSearch/tarball/master" class="tar">tar</a><a href="https://github.com/AkiChen/AkiSearch/zipball/master" class="zip">zip</a><a href="" class="code">source code</a>
-    <p class="name"></p>
-  </div>
+<h2>
+<a id="安装和设置" class="anchor" href="#%E5%AE%89%E8%A3%85%E5%92%8C%E8%AE%BE%E7%BD%AE" aria-hidden="true"><span class="octicon octicon-link"></span></a>安装和设置</h2>
+
+<h3>
+<a id="1使用本地文件夹来安装" class="anchor" href="#1%E4%BD%BF%E7%94%A8%E6%9C%AC%E5%9C%B0%E6%96%87%E4%BB%B6%E5%A4%B9%E6%9D%A5%E5%AE%89%E8%A3%85" aria-hidden="true"><span class="octicon octicon-link"></span></a>1.使用本地文件夹来安装</h3>
+
+<p>Google为了加强对恶意chrome app的控制，在windows平台最新版本的chrome浏览器中已经停止了对第三方app的支持，据说Mac平台的chrome在2015年夏天也会有相同的举措。所以我还是推荐在开发者模式下通过加载本地文件夹安装。不然，如果采用传统的安装包安装方法，这个插件可能会被chrome默认禁用。</p>
+
+<p>步骤如下:</p>
+
+<ol>
+<li>点击 <a href="http://github.com/AkiChen/AkiSearch/archive/master.zip">akiSearch</a> 来下载插件的压缩包，并解压。</li>
+<li>打开谷歌浏览器右上角的菜单，菜单-&gt;更多工具-&gt;扩展程序，勾选"开发者模式"。</li>
+<li>点击"加载正在开发的扩展程序"，选择压缩包中的"akiSearch"文件夹，一路确定和接受，完成安装。被选定的文件夹需要一直存储在你的电脑中。
+<img src="https://raw.githubusercontent.com/AkiChen/AkiSearch/master/pics/pic8.png" alt="Screen Shot3!">
+</li>
+</ol>
+
+<h3>
+<a id="2使用安装包来安装" class="anchor" href="#2%E4%BD%BF%E7%94%A8%E5%AE%89%E8%A3%85%E5%8C%85%E6%9D%A5%E5%AE%89%E8%A3%85" aria-hidden="true"><span class="octicon octicon-link"></span></a>2.使用安装包来安装</h3>
+
+<p>这个安装方法很简单，适合windows以外的chrome浏览器用户。</p>
+
+<p>步骤如下:</p>
+
+<ol>
+<li>点击 <a href="http://github.com/AkiChen/AkiSearch/archive/master.zip">akiSearch</a> 来下载插件的压缩包，并解压。</li>
+<li>打开谷歌浏览器右上角的菜单，菜单-&gt;更多工具-&gt;扩展程序，并且勾选"开发者模式"。
+<img src="https://raw.githubusercontent.com/AkiChen/AkiSearch/master/pics/pic6.png" alt="Screen Shot3!">
+</li>
+<li>将压缩包中的"akiSearch.crx"用鼠标拖动到扩展程序的页面中，一路确定和接受，完成安装。
+<img src="https://raw.githubusercontent.com/AkiChen/AkiSearch/master/pics/pic7.png" alt="Screen Shot3!">
+</li>
+</ol>
+
+<h3>
+<a id="3将akiの搜索设为chrome的默认搜索" class="anchor" href="#3%E5%B0%86aki%E3%81%AE%E6%90%9C%E7%B4%A2%E8%AE%BE%E4%B8%BAchrome%E7%9A%84%E9%BB%98%E8%AE%A4%E6%90%9C%E7%B4%A2" aria-hidden="true"><span class="octicon octicon-link"></span></a>3.将"Akiの搜索"设为Chrome的默认搜索</h3>
+
+<p>chrome的地址栏是很方便的搜索入口，它默认使用Google搜索，也可以进行个性化的设置。</p>
+
+<p>步骤如下:</p>
+
+<ol>
+<li><p>打开谷歌浏览器右上角的菜单，菜单-&gt;设置，点击管理搜索引擎。
+<img src="https://raw.githubusercontent.com/AkiChen/AkiSearch/master/pics/pic9.png"></p></li>
+<li>
+<p>将滚动条拖动到底端，可以简单的用三个字段来自定义搜索引擎。</p>
+
+<p>① 搜索引擎名称（红色），填个你喜欢的名字吧。</p>
+
+<p>② 关键字（蓝色），我也不知道这个有什么用，随便填吧。</p>
+
+<p>③ 网址（黄色）:随意搜索一个关键词，将得到的页面地址填入，并且把关键词用"%s"代替。例如我搜索"tongji"，得到的页面地址是</p>
+
+<p>chrome-extension://<code>jiggceakakachkbfbpgimfakjpedlnkc</code>/main.html?q=tongji</p>
+
+<p>所以我需要在这个字段填入的网址是: chrome-extension://<code>jiggceakakachkbfbpgimfakjpedlnkc</code>/main.html?q=%s </p>
+
+<p>灰色部分的字母是应用程序在本地的ID，各台机器不尽相同。</p>
+</li>
+<li><p>编辑完成之后，在列表中找到新建的搜索，并且点击设置为默认搜索引擎。
+<img src="https://raw.githubusercontent.com/AkiChen/AkiSearch/master/pics/pic10.png" alt="Screen Shot3!"></p></li>
+</ol>
+
+<h3>
+<a id="4通过google-ip访问谷歌" class="anchor" href="#4%E9%80%9A%E8%BF%87google-ip%E8%AE%BF%E9%97%AE%E8%B0%B7%E6%AD%8C" aria-hidden="true"><span class="octicon octicon-link"></span></a>4.通过Google IP访问谷歌</h3>
+
+<p>虽然被墙，但是还有一些Google的服务器地址可以被访问。"Akiの搜索"收集了很多暂时可以访问的谷歌IP地址，点击"Settings"按钮可以查看当前正在使用的谷歌IP地址。如果有一天你发现Google搜索的部分刷不出来，可能是这个IP已经被墙，点击"<code>Settings</code>"菜单中的"<code>更换Google IP</code>"。</p>
+
+<h2>
+<a id="程序员可能感兴趣的事情" class="anchor" href="#%E7%A8%8B%E5%BA%8F%E5%91%98%E5%8F%AF%E8%83%BD%E6%84%9F%E5%85%B4%E8%B6%A3%E7%9A%84%E4%BA%8B%E6%83%85" aria-hidden="true"><span class="octicon octicon-link"></span></a>程序员可能感兴趣的事情</h2>
+
+<ol>
+<li>界面使用的是基于Bootstrap的<a href="http://designmodo.github.io/Flat-UI/#">Flat UI</a>，虽然是男人，但是我很喜欢它魔性的主题绿色。</li>
+<li>找到合适的Google IP很重要，这个插件中的谷歌IP列表是由<a href="https://github.com/PeerXu/google-ip-explorer">google-ip-explorer</a>获得的，它是一个Python的小程序，但是很有效。</li>
+<li>虽然官方一直不推崇使用开发网页的思维来制作Chrome APP，但是如果你很熟悉网站前端开发，创造一个有趣的Chrome APP绝不是什么难事，特别是配合<a href="http://www.ituring.com.cn/book/1421">《Chrome扩展及应用开发》</a>，其中包含了不少程序实例，很容易上手。</li>
+</ol>
+
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/AkiChen/AkiSearch">Akisearch</a> is maintained by <a href="https://github.com/AkiChen">AkiChen</a>.</span>
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+      </footer>
+
+    </section>
 
   
-</body>
+  </body>
 </html>
+
